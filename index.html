@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>가맹점 관리 | EPOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">place partners</div>
+        <nav>
+          <p class="section">가맹점</p>
+          <a class="menu active" href="#">가맹점 관리</a>
+          <a class="menu" href="#">리드 관리</a>
+          <a class="menu" href="#">업무 관리</a>
+          <p class="section">정산</p>
+          <a class="menu" href="#">수수료 조건 확인</a>
+          <a class="menu" href="#">청구서</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <h1>가맹점 관리</h1>
+            <p>총 838개 가맹점이 등록되어 있습니다.</p>
+          </div>
+          <button class="primary">새 가맹점 만들기</button>
+        </header>
+
+        <section class="controls">
+          <input type="text" placeholder="가맹점 이름, 사업자등록번호, 전화번호로 검색" />
+          <div class="filters">
+            <button>등록일 ▾</button>
+            <button>영업 상태 ▾</button>
+            <button>토스페이 청약 ▾</button>
+            <button>단말기 ▾</button>
+            <button>프론트 결제창 ▾</button>
+            <button>VAN ▾</button>
+          </div>
+        </section>
+
+        <section class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>가맹점 이름</th>
+                <th>등록일</th>
+                <th>사업자등록번호</th>
+                <th>영업 상태</th>
+                <th>프론트 결제창</th>
+                <th>VAN</th>
+                <th>가맹점 전화번호</th>
+                <th>가맹점 주소</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>이너스(INUS)</td><td>2026.02.19</td><td>480-32-01832</td><td>영업</td><td>정보 없음</td><td>코밴</td><td>010-3193-1877</td><td>서울특별시 동대문구 천호대로77나길 3</td>
+              </tr>
+              <tr>
+                <td>물(mule)</td><td>2026.02.12</td><td>615-10-66609</td><td>영업</td><td>정보 없음</td><td>코밴</td><td>010-8950-4111</td><td>경기도 파주시 해올2길 8</td>
+              </tr>
+              <tr>
+                <td>싱싱야채과일농원</td><td>2026.02.09</td><td>455-90-02441</td><td>영업</td><td>최신</td><td>코밴</td><td>010-2640-6663</td><td>경기도 시흥시 역전로 266</td>
+              </tr>
+              <tr>
+                <td>카페,320돌</td><td>2026.02.04</td><td>261-09-03492</td><td>영업</td><td>최신</td><td>코밴</td><td>070-8648-1525</td><td>경기도 화성시 병점구 동탄지성로 320</td>
+              </tr>
+              <tr>
+                <td>더케밥(The Kebab)</td><td>2026.02.03</td><td>795-34-01761</td><td>영업</td><td>최신</td><td>코밴</td><td>010-8271-9505</td><td>경기도 수원시 영통구 아주로 10-1</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
